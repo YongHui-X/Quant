@@ -200,6 +200,53 @@ This change removed kernel ambiguity. The repo now has a stable local interprete
 Explain like I'm 11:
 Before, the notebook was using a vague "some Python" setup. Now it has its own named engine, like putting the right battery into a toy and labeling it so you always know which one to use.
 
+## 2026-04-17 - README rewrite and screenshot embed
+
+Why this change was made:
+- The repo still had a placeholder README, so there was no clear project overview for a new reader.
+
+Files affected:
+- `readme.md`
+- `research/change_learning_log.md`
+
+What changed:
+- Replaced the placeholder README with a proper project overview.
+- Embedded the provided screenshot from `image/ss.png`.
+- Documented the current strategy direction, repository structure, quick-start steps, and working method.
+
+Validation:
+- Confirmed the screenshot asset exists in the repo and referenced it with a repo-relative path.
+- Reviewed the README content against the actual files present in the workspace.
+
+Normal explanation:
+This change made the repo understandable without requiring prior chat context. A new reader can now see what the project is, what the current benchmark idea is, how to run the notebook, and how the workspace is organized.
+
+Explain like I'm 11:
+Before, the project had almost no front cover. Now it has a proper front page with a picture, a short explanation of what the project does, and simple instructions for where to start.
+
+## 2026-04-17 - Recruiter-facing README introduction
+
+Why this change was made:
+- The README needed a stronger introduction that explains the project in terms a recruiter or hiring manager can understand quickly.
+
+Files affected:
+- `readme.md`
+- `research/change_learning_log.md`
+
+What changed:
+- Rewrote the opening README paragraphs to describe the repo as a structured quant experimentation project.
+- Clarified that the screenshot serves as competition-dashboard proof of the team result.
+- Framed the work around hypothesis generation, metric-driven iteration, and disciplined alpha tracking.
+
+Validation:
+- Reviewed the intro against the actual workflow in the repo and kept the wording aligned with what was genuinely done.
+
+Normal explanation:
+This change made the README introduction more useful for external readers. Instead of sounding like an internal notebook only, it now explains the repo as evidence of how the competition work was approached and why the screenshot matters.
+
+Explain like I'm 11:
+This makes the first paragraph sound more like, "Here is what I built and why it matters," instead of just, "Here is my folder." It helps a new person understand the project faster.
+
 ## 2026-04-17 - Simulation result tracker and clean rerun workflow
 
 Why this change was made:
